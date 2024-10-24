@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo img{
+   width: 75px;
+   display: flex ;
+   align-items: center;
+   margin-left: 20px;
+
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:rgb(137, 131, 131);
+    font-size: medium;
+    
+}
+
+
+.iconshop {
+    display:flex;
+    width: 19px;
+}
+.iconshop img{
+    width: 18px;
+    margin: 10px;
+}
+main .gambar1 img{
+    width: 100%;
+}
+
+header nav ul li .hello{
+    margin-right: 30px;
+}
+
+main .gambar2 img{
+    width: 100%;
+}
+
+header nav ul li .h{
+    margin-right: 30px;
+}
+
+main .gambar3 img{
+    width: 100%;
+}
+header nav ul li .a{
+    margin-right: 30px;
+}
+main .gambar4 img{
+    width: 100%;
+}
+header nav ul li b{
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
